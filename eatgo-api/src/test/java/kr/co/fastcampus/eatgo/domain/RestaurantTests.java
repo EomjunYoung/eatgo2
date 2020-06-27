@@ -11,6 +11,7 @@ public class RestaurantTests {
     public void creation(){
 
         Restaurant restaurant = new Restaurant("Bob zip", "Seoul");
+        Restaurant restaurant2 = new Restaurant("Bob zip", "Seoul");
         assertThat(restaurant.getName(), is("Bob zip"));
         assertThat(restaurant.getAddress(), is("Seoul"));
 
